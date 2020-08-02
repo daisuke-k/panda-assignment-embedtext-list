@@ -30,5 +30,5 @@ for d in dirlist:
     ids.append(id)
 
 for i in sorted(ids):
-    print("<p>{}</p><iframe src=\"{}/{}_submissionText.html\" width=\"480\" height=\"150\"></iframe>".format(dl[i][1], dl[i][0], dl[i][1]))
+    print("<p>{}</p><iframe src=\"{}/{}_submissionText.html\" width=\"800\" height=\"125\"></iframe>".format(dl[i][1], dl[i][0], dl[i][1]))
     
